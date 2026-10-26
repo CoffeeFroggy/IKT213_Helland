@@ -1,0 +1,4 @@
+# PC demo. Python 3.8-3.12 recommended. Tk is supplied by Ubuntu/Conda.
+numpy>=1.19,<3
+opencv-python-headless==4.10.0.84
+Pillow>=8,<13

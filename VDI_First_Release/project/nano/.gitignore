@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+data/
+exports/
+*.sqlite3*
+models/*.pt
+models/*.onnx
+models/*.engine
+assets/references/
+config/*.bak
+
+# Runtime environment stays local; submitted model files are included.
+.nano-venv/
+!models/best.pt
+!models/best.onnx
+!models/shape_model.pth
+!models/shape_model.onnx
+!models/checksums.json
+!models/shape_preprocess.json

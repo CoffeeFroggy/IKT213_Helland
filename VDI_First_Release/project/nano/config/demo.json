@@ -1,0 +1,64 @@
+{
+  "demo": true,
+  "database": "data/demo.sqlite3",
+  "segmentation": {
+    "method": "brightness",
+    "roi": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "gaussian_kernel": 3,
+    "threshold": 50,
+    "close_kernel": 3,
+    "min_area_fraction": 0.03,
+    "max_area_fraction": 0.9,
+    "second_object_ratio": 0.35
+  },
+  "geometry": {
+    "reference_image": "assets/demo/clean.png",
+    "mm_per_pixel": 0.25,
+    "nominal_width_mm": 70.0,
+    "nominal_height_mm": 150.0,
+    "width_tolerance_mm": 2.0,
+    "height_tolerance_mm": 2.0,
+    "calibration_image_size": [
+      800,
+      800
+    ],
+    "max_shape_distance": 0.12,
+    "max_fill_difference": 0.035,
+    "max_aspect_relative_difference": 0.08
+  },
+  "model": {
+    "backend": "placeholder",
+    "weights": "models/best.pt",
+    "input": "original_bgr",
+    "image_size": 1024,
+    "confidence": 0.25,
+    "iou": 0.45,
+    "device": "cpu"
+  },
+  "camera": {
+    "device": "/dev/v4l/by-id/usb-Razer_Inc_Razer_Kiyo_Pro-video-index0",
+    "width": 1920,
+    "height": 1080,
+    "warmup_frames": 10,
+    "flush_frames": 3,
+    "settle_seconds": 0.4,
+    "controls": {
+      "exposure_auto": 1,
+      "exposure_auto_priority": 0,
+      "focus_auto": 0,
+      "white_balance_temperature_auto": 0,
+      "sharpness": 0,
+      "backlight_compensation": 0,
+      "gain": 0,
+      "zoom_absolute": 100,
+      "power_line_frequency": 1,
+      "focus_absolute": 157,
+      "exposure_absolute": 2047
+    }
+  }
+}

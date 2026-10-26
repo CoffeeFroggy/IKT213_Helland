@@ -1,0 +1,18 @@
+{
+  "software_tests": "68 passed",
+  "model_examples": "4 matched original decisions, types, probabilities and boxes",
+  "hardware_tested": false,
+  "runtime": "ONNX Runtime CPU",
+  "legacy_target": "Linux ARM64 / JetPack 4 / Python 3.6",
+  "models": {
+    "shape_model.onnx": "6079c33240c25a3b4cc68d8afc120d6fe55f5546f95728a9ed7bbd4dc43bf20b",
+    "best.onnx": "8ae3b67c1f137440199b7fe7d13db288cd72de9820cbda2086be62474e01c187"
+  },
+  "startup_fix": {
+    "arm64_openblas_coretype": "ARMV8",
+    "shell_workaround_before_first_python": true,
+    "direct_python_package_workaround": true,
+    "startup_checks": "passed using simulated ARM64 launch paths",
+    "physical_nano_retest": false
+  }
+}

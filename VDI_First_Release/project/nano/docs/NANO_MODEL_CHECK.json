@@ -1,0 +1,35 @@
+{
+  "tested_on": "x86_64 CPU, not physical Nano",
+  "comparison": "original PyTorch vs exported ONNX",
+  "examples": [
+    {
+      "image": "20261026_113813_103483_e148a2ca.jpg",
+      "decision": "INCOMPLETE",
+      "shape_probability_max_difference": 4.433786671143025e-12,
+      "defects": []
+    },
+    {
+      "image": "20261026_113829_101765_b7cf88eb.jpg",
+      "decision": "REJECT",
+      "shape_probability_max_difference": 1.3960743672214448e-10,
+      "defects": []
+    },
+    {
+      "image": "20261026_113850_055422_b0ca429a.jpg",
+      "decision": "REJECT",
+      "shape_probability_max_difference": 4.0381564758718014e-10,
+      "defects": []
+    },
+    {
+      "image": "20261026_113946_269762_98e66495.jpg",
+      "decision": "REJECT",
+      "shape_probability_max_difference": 6.293703336268663e-10,
+      "defects": [
+        "scratch",
+        "scratch",
+        "scratch",
+        "crack"
+      ]
+    }
+  ]
+}

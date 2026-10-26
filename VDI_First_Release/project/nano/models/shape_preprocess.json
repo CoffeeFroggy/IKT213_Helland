@@ -1,0 +1,28 @@
+{
+  "format": "vdi_shape_mobilenet_v1",
+  "classes": [
+    "correct_shape",
+    "no_protector",
+    "shape_defect"
+  ],
+  "preprocess": {
+    "size": 448,
+    "roi": [
+      0.25,
+      0.0,
+      0.8,
+      1.0
+    ],
+    "frame_ratio": 1.7777777777777777,
+    "mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "std": [
+      0.229,
+      0.224,
+      0.225
+    ]
+  }
+}

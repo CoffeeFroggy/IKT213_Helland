@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+data/
+exports/
+*.sqlite3*
+models/*.pt
+models/*.onnx
+models/*.engine
+assets/references/
+config/*.bak

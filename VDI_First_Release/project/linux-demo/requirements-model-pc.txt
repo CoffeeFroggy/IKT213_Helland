@@ -1,0 +1,4 @@
+# Optional: only install when testing the trained model ON THE PC.
+# Reuse the exact training version of Ultralytics if available from your teammate.
+ultralytics>=8.3,<9
+opencv-python==4.10.0.84

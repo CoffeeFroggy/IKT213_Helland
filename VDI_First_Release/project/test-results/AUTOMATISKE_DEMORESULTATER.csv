@@ -1,0 +1,11 @@
+test_id,bilde,placeholder_scenario,forventet_automatisk_resultat,observert_automatisk_resultat,teststatus,verifisering
+TP01,clean.png,clean,PASS,PASS,Bestått,test_end_to_end sammenligner faktisk resultat og lagret resultat med forventet verdi; kamera/modell er simulert.
+TP02,scratch.png,scratch,REJECT,REJECT,Bestått,test_end_to_end sammenligner faktisk resultat og lagret resultat med forventet verdi; kamera/modell er simulert.
+TP02,crack.png,crack,REJECT,REJECT,Bestått,test_end_to_end sammenligner faktisk resultat og lagret resultat med forventet verdi; kamera/modell er simulert.
+TP02,both.png,both,REJECT,REJECT,Bestått,test_end_to_end sammenligner faktisk resultat og lagret resultat med forventet verdi; kamera/modell er simulert.
+TP03,empty.png,clean,REJECT,REJECT,Bestått,test_end_to_end sammenligner faktisk resultat og lagret resultat med forventet verdi; kamera/modell er simulert.
+TP04,wrong_shape.png,clean,REJECT,REJECT,Bestått,test_end_to_end sammenligner faktisk resultat og lagret resultat med forventet verdi; kamera/modell er simulert.
+TP04,missing_piece.png,clean,REJECT,REJECT,Bestått,test_end_to_end sammenligner faktisk resultat og lagret resultat med forventet verdi; kamera/modell er simulert.
+TP05,wrong_size.png,clean,REJECT,REJECT,Bestått,test_end_to_end sammenligner faktisk resultat og lagret resultat med forventet verdi; kamera/modell er simulert.
+TP06,rotated.png,clean,PASS,PASS,Bestått,test_end_to_end sammenligner faktisk resultat og lagret resultat med forventet verdi; kamera/modell er simulert.
+TP10,clean.png,model_error,ERROR,ERROR,Bestått,test_end_to_end sammenligner faktisk resultat og lagret resultat med forventet verdi; kamera/modell er simulert.

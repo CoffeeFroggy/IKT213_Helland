@@ -1,0 +1,31 @@
+[
+  {
+    "file": "20261026_113813_103483_e148a2ca.jpg",
+    "shape": "correct_shape",
+    "defect_status": "performed",
+    "labels": []
+  },
+  {
+    "file": "20261026_113829_101765_b7cf88eb.jpg",
+    "shape": "shape_defect",
+    "defect_status": "not_performed",
+    "labels": []
+  },
+  {
+    "file": "20261026_113850_055422_b0ca429a.jpg",
+    "shape": "no_protector",
+    "defect_status": "not_performed",
+    "labels": []
+  },
+  {
+    "file": "20261026_113946_269762_98e66495.jpg",
+    "shape": "correct_shape",
+    "defect_status": "performed",
+    "labels": [
+      "crack",
+      "scratch",
+      "scratch",
+      "scratch"
+    ]
+  }
+]

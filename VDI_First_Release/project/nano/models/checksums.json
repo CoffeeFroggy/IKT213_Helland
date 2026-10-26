@@ -1,0 +1,7 @@
+{
+  "best.pt": "90775bcd98ecd77f3341ae75eda17b69d065418a631e3b9a995c07ed88733a3f",
+  "shape_model.pth": "adee0650d4d2b9d6a947eb9df094c94b04a013708b90245f51525768ad058146",
+  "best.onnx": "8ae3b67c1f137440199b7fe7d13db288cd72de9820cbda2086be62474e01c187",
+  "shape_model.onnx": "6079c33240c25a3b4cc68d8afc120d6fe55f5546f95728a9ed7bbd4dc43bf20b",
+  "shape_preprocess.json": "a07e02bb1319bb569a9ae58cf9979d840b6391a0df15441755becfc5a0c58472"
+}

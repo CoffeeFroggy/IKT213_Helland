@@ -1,0 +1,3 @@
+# Original Nano: use bash SETUP_NANO.sh for the included ARM64 wheels.
+-r requirements-nano36.txt
+# OpenCV and Tk come from the Nano system packages.
